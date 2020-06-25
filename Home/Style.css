@@ -1,0 +1,191 @@
+body{
+	background-color: white;
+	font-family: 'Roboto', sans-ser;
+	margin:0;
+}
+
+.cyan{
+	color: black;
+}
+
+#Heading{
+	background-image: url("Imgs/20321.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 90px;
+	margin:0;
+	padding: 0;
+}
+
+#Logo
+{
+	font-size: 65px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	padding-left: 10px;
+	padding-top: 0px;
+	align-content: center;
+	text-align: left;
+	font-weight: lighter;
+	letter-spacing: 3px;
+	font-family: 'Orbitron', sans-serif;
+	float: left;
+	margin-left: 8px;
+	color: #DEDEDE;
+}
+
+#Logo a{
+	text-decoration: none;
+	color: #DEDEDE;
+}
+
+#Logo a:hover{
+	color:black;
+}
+
+#Tagline
+{
+	text-align: right;
+	text-align: bottom;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	float: right;
+	letter-spacing: 5px;
+	color: black;
+	line-height: 1.17;
+	padding-right: 10px;
+	margin-right: 3px;
+}
+
+#Heading
+{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+#nav{
+	text-align: center;
+	clear: both;
+	font-size: 17px;
+	padding-top: 1px;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 5px;
+}
+
+#picture{
+	float:right;
+	margin-top: 12px;
+	margin-right: 145px;
+	background-color: white;
+	padding:10px;
+}
+
+#main
+{
+	clear: both;
+	margin: 0;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 480px;
+	background-image: url("Imgs/backgroundmain.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 45px;
+}
+
+#content{
+	float: left;
+	width: 820px;
+}
+
+#mainh{
+	font-family: 'Poppins', sans-serif;
+	font-size: 45px;
+	color: black;
+	line-height: 1.2;
+	margin-left: 98px;
+	margin-top: 140px;
+}
+
+#mainheader{
+	text-align: left;
+}
+
+#mainc{
+	font-size: 18px;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 3px;
+	margin-left:105px;
+	margin-top: 30px;
+	line-height: 1.6;
+}
+
+#footer{
+	color: white;
+	text-align: right;
+	background-color: #4F4F4F;
+	padding: 6px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	letter-spacing: 1px;
+	clear: both;
+	margin-bottom: 0;
+	font-family: 'Barlow', sans-serif;
+	height: 70px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4F4F4F;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 30px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li:hover {
+  background-color: white;
+  color:black;
+}
+li a:hover {
+	color:black;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+
+li.active{
+	background-color: black;
+}
+
+li.active:hover{
+	background-color: white;
+	color: black;
+}
+
+li:last-child {
+  border-right: none;
+  border-left: 1px solid #bbb;
+}
+
+li:first-child{
+	padding-left: 2.5px;
+}
+
